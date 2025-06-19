@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Architecture Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Christian S.</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Architect & Designer</h2>
+    <p>Creating spaces that inspire and connect.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate architecture student with a focus on sustainable and interactive design. This portfolio highlights my most meaningful work.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Projects</h2>
+    <div class="gallery">
+      <div class="project">
+        <img src="projects/project1.jpg" alt="Project 1">
+        <h3>Modern House</h3>
+        <p>Residential project focusing on indoor-outdoor flow and clean lines.</p>
+      </div>
+      <div class="project">
+        <img src="projects/project2.jpg" alt="Project 2">
+        <h3>Urban Pavilion</h3>
+        <p>Public space design for an interactive art installation.</p>
+      </div>
+      <!-- Add more projects here -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+    <p>Instagram: @your.architecture</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Christian S. All rights reserved.</p>
+  </footer>
+</body>
+</html>
