@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ body {
   padding-bottom: 50px;
 }
 
+/* Header */
 header {
   background: #111;
   color: white;
@@ -21,12 +23,27 @@ header {
   align-items: center;
 }
 
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: none;
+}
+
 header nav a {
   color: #eee;
   margin-left: 20px;
   text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
 }
 
+header nav a:hover {
+  color: #fff;
+}
+
+/* Hero Section */
 #hero {
   background: #f4f4f4;
   padding: 100px 40px;
@@ -34,13 +51,37 @@ header nav a {
 }
 
 #hero h2 {
-  font-size: 3em;
+  font-size: 3.5em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
 }
 
+#hero p {
+  font-size: 1.2em;
+  margin-top: 15px;
+  color: #444;
+}
+
+/* Sections */
 section {
   padding: 60px 40px;
 }
 
+section h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2em;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+/* Project Gallery */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -54,9 +95,14 @@ section {
 }
 
 .project h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
   margin-top: 10px;
+  color: #333;
 }
 
+/* Footer */
 footer {
   background: #111;
   color: white;
@@ -64,4 +110,5 @@ footer {
   padding: 20px 0;
   position: relative;
   bottom: 0;
+  font-size: 0.9em;
 }
