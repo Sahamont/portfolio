@@ -89,15 +89,19 @@ section h2 {
   gap: 30px;
 }
 
-.project img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+.project {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.2s ease;
+}
+
+.project:hover {
+  transform: scale(1.02);
 }
 
 .project h3 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.2em;
   margin-top: 10px;
   color: #333;
