@@ -125,4 +125,33 @@ footer {
   margin: 0 auto;
   border-radius: 10px;
 }
+.gallery-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  font-weight: bold;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.gallery-img:hover {
+  transform: scale(1.03);
+}
 
