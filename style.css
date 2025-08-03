@@ -127,6 +127,7 @@ footer {
 }
 .gallery-title {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
   font-size: 2rem;
   margin: 40px 0 20px;
   font-weight: bold;
